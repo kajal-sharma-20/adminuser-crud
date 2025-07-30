@@ -110,8 +110,8 @@ export const userlogin = async (req, res) => {
     // Clear admintoken to prevent overlap
     res.clearCookie("admintoken", {
       httpOnly: true,
-       sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax", // ✅ Required for cross-origin
-  secure: process.env.NODE_ENV === "production", // ✅ Enforce secure cookie on HTTPS
+       sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax", // Required for cross-origin
+  secure: process.env.NODE_ENV === "production", // Enforce secure cookie on HTTPS
       path: "/",
     });
 
