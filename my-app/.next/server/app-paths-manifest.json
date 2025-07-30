@@ -1,0 +1,12 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/signup/adminlogin/adduser/page": "app/signup/adminlogin/adduser/page.js",
+  "/signup/adminlogin/update/[id]/page": "app/signup/adminlogin/update/[id]/page.js",
+  "/signup/adminlogin/user/page": "app/signup/adminlogin/user/page.js",
+  "/signup/loginasadmin/page": "app/signup/loginasadmin/page.js",
+  "/signup/loginasuser/page": "app/signup/loginasuser/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/signup/userlogin/[id]/page": "app/signup/userlogin/[id]/page.js",
+  "/signup/userlogin/updateuser/[id]/page": "app/signup/userlogin/updateuser/[id]/page.js"
+}
