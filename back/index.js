@@ -10,7 +10,10 @@ import { createAdminIfNotExists } from "./controller/admincontroller.js";
 dotenv.config();
 const app = express();
 app.use(cookieParser());
-app.use(cors({origin: "http://localhost:3000",credentials: true }));
+app.use(cors({origin: [
+      "http://localhost:3000",                // Local frontend
+      "https://adminuser-crud-1.onrender.com" // Deployed frontend on Render
+    ],credentials: true }));
 app.use(express.json());
 
 
